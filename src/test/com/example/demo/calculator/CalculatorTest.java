@@ -12,6 +12,7 @@ class CalculatorTest {
     @DisplayName("Division")
     @Test
     //given when then
+    //GWT
     void testIntegerDivision_WhenSixIsDividedByThree_ShouldReturnTwo() {
         int result =calculator.IntegerDivision(6,3);
         assertEquals(2,result,"Hello Testing");
