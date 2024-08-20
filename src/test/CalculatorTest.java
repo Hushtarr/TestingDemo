@@ -1,5 +1,4 @@
-package com.example.demo.calculator;
-
+import com.example.demo.resources.Calculator;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -105,7 +104,7 @@ class CalculatorTest {
     @ValueSource(strings={"a","b","c"})// Only accepts a single primitive type parameter in array format
     void testVariable_WhileAppRunning_AcceptParameter(String string){
         String given="a";
-        //          -> \"              ->   output: "
+        //          ->   \"              ->   output: "
         Assertions.assertTrue(string.contains(given), "Hey, we don't have \"" + given + "\" in DB");
     }
 

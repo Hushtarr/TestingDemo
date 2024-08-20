@@ -1,4 +1,4 @@
-package com.example.demo.calculator;
+package com.example.demo.resources;
 
 public class Calculator {
     public int IntegerDivision(int a, int b) {
